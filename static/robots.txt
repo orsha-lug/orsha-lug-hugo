@@ -1,10 +1,16 @@
 User-agent: *
+Sitemap: https://orsha.linux.by/sitemap.xml
+Sitemap: https://orsha.linux.by/sitemap_index.xml
+Sitemap: https://orsha.linux.by/sitemap_forum.xml
 Disallow: /categories/
 Disallow: /page/
 Disallow: /tags/
 Host: orsha.linux.by
 
 User-Agent: Yandex
+Sitemap: https://orsha.linux.by/sitemap.xml
+Sitemap: https://orsha.linux.by/sitemap_index.xml
+Sitemap: https://orsha.linux.by/sitemap_forum.xml
 Disallow: /categories/
 Disallow: /page/
 Disallow: /tags/
