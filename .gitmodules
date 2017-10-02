@@ -1,0 +1,3 @@
+[submodule "static/forum"]
+	path = static/forum
+	url = git@bitbucket.org:shurph/orsha-lug-forum.git
