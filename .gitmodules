@@ -1,3 +1,6 @@
 [submodule "static/forum"]
 	path = static/forum
 	url = git@bitbucket.org:shurph/orsha-lug-forum.git
+[submodule "themes/beautifulhugo"]
+	path = themes/beautifulhugo
+	url = https://github.com/halogenica/beautifulhugo.git
