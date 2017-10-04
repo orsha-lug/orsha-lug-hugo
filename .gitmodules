@@ -4,3 +4,6 @@
 [submodule "themes/beautifulhugo"]
 	path = themes/beautifulhugo
 	url = https://github.com/halogenica/beautifulhugo.git
+[submodule "content"]
+	path = content
+	url = git@bitbucket.org:shurph/orsha-lug-hugo-content.git
