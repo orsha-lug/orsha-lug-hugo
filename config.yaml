@@ -1,0 +1,30 @@
+baseURL: "http://orsha.linux.by/"
+languageCode: "ru"
+theme: "beautifulhugo"
+DefaultContentLanguage: "ru"
+title: "Orsha LUG"
+description: "Группа пользователей Linux в Орше"
+metaDataFormat: "yaml"
+
+pygmentsStyle: "trac"
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+pygmentsCodefencesGuessSyntax: true
+
+Params:
+    subtitle: 'Группа пользователей Linux в Орше'
+    logo: "images/orsha-tux-hugo.svg"
+    favicon: "images/tux_orsha.png"
+    commit: false
+    rss: false
+    readingTime: false
+    # @todo: https://gohugo.io/content-management/multilingual/
+    # @todo: do pull requests to the theme
+    dateFormat: "2006-01-02"
+
+# Author:
+#     name: "OrshaLUG"
+#     website: "https://orsha.linux.by/"
+#     email: "orsha-lug@googlegroups.com"
+#     telegram: "Orsha LUG"
+
