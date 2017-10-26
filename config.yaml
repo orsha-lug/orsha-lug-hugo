@@ -13,7 +13,7 @@ pygmentsCodefencesGuessSyntax: true
 
 Params:
     subtitle: 'Группа пользователей Linux в Орше'
-    logo: "images/orsha-tux-hugo.svg"
+    logo: "images/orsha-tux-hugo.png"
     favicon: "images/tux_orsha.png"
     commit: false
     rss: false
@@ -21,6 +21,19 @@ Params:
     # @todo: https://gohugo.io/content-management/multilingual/
     # @todo: do pull requests to the theme
     dateFormat: "2006-01-02"
+
+menu:
+  main:
+      - Name: "Форум"
+        Weight: -1
+        URL: "/forum/"
+      - Name: "Статьи"
+        Weight: 2
+        URL: "/getting-started/"
+      - Name: "Манифест"
+        Weight: 2
+        URL: "/getting-started/"
+
 
 # Author:
 #     name: "OrshaLUG"
