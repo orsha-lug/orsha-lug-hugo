@@ -1,0 +1,9 @@
+ErrorDocument 404 /archive/articles/Error.html
+
+
+
+
+Redirect 301 /index.php/USB-%D0%BF%D1%80%D0%B8%D0%BD%D1%82%D0%B5%D1%80_HP_LJ_1020_%D0%B8_Linux http://orsha.linux.by//archive/articles/Articles.USBPrinterHPLJ1020InLinux.html
+Redirect 301  /index.php/USB-принтер_HP_LJ_1020_и_Linux http://orsha.linux.by//archive/articles/Articles.USBPrinterHPLJ1020InLinux.html
+
+
