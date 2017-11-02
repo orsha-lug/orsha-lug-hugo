@@ -31,26 +31,25 @@
           {{ end }}
         </ul>
         <p class="credits copyright text-muted">
-          {{ if .Site.Author.name }}
-            {{ if .Site.Author.website }}
-              <a href="{{ .Site.Author.website }}">{{ .Site.Author.name }}</a>
-            {{ else }}
-              {{ .Site.Author.name }}
-            {{ end }}
-          {{ end }}
-
-          &nbsp;&bull;&nbsp;
-          {{ .Site.LastChange.Format "2006" }}
-
-          {{ if .Site.Title }}
-            &nbsp;&bull;&nbsp;
-            <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
-          {{ end }}
+          ©&nbsp;2007&nbsp;–&nbsp;{{ .Site.LastChange.Format "2006" }}, все права
+          защищены{{ if .Site.Title }}, <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>{{ end }}.
+        </p>
+        <p class="credits thanks text-center list-inline">
+          Благодарим за хостинг компанию <a rel="nofollow" href="http://datahata.by/">DataHata</a> | <a href="http://mycloud.by">MyCloud.by</a>
+        </p>
+        <p class="credits developers text-center">
+          ©&nbsp;2009&nbsp;–&nbsp;2018, разработка сайта:&nbsp;<a class="fa fa-twitter" href="https://twitter.com/shurph">shurph</a>.
         </p>
         <!-- Please don't remove this, keep my open source work credited :) -->
         <p class="credits theme-by text-muted">
-          {{ i18n "poweredBy" . | safeHTML }}
-          {{ with .Site.Params.commit }}&nbsp;&bull;&nbsp;[<a href="{{.}}{{ getenv "GIT_COMMIT_SHA" }}">{{ getenv "GIT_COMMIT_SHA_SHORT" }}</a>]{{ end }}
+          На базе
+          <a rel="nofollow" href="http://gohugo.io">Hugo v{{ .Hugo.Version }}</a>
+          &nbsp;&bull;&nbsp;
+          Тема <a rel="nofollow" href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          на базе <a rel="nofollow" href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+        </p>
+        <p class="credits developers text-center list-inline">
+          {{ with .Site.Params.commit }}[<a href="{{.}}{{ getenv "GIT_COMMIT_SHA" }}">{{ getenv "GIT_COMMIT_SHA_SHORT" }}</a>]{{ end }}
         </p>
       </div>
     </div>
