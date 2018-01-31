@@ -1,9 +1,49 @@
-ErrorDocument 404 /archive/articles/Error.html
+ErrorDocument 404 /404.html
 
 
 
 
 Redirect 301 /index.php/USB-%D0%BF%D1%80%D0%B8%D0%BD%D1%82%D0%B5%D1%80_HP_LJ_1020_%D0%B8_Linux http://orsha.linux.by//archive/articles/Articles.USBPrinterHPLJ1020InLinux.html
 Redirect 301  /index.php/USB-принтер_HP_LJ_1020_и_Linux http://orsha.linux.by//archive/articles/Articles.USBPrinterHPLJ1020InLinux.html
+
+# 2018-01-31
+Redirect 301 /images/orsha_logo.png /archive/images/orsha_logo.png
+
+
+Redirect 301 /archive/articles/Articles.BelarussianDictionary.html /article/belarussian-dictionary/
+Redirect 301 /archive/articles/Articles.CyrillicInDebian40r0Etch.html /article/cyrillic-in-debian-40r0etch/
+Redirect 301 /archive/articles/Articles.FAQ.html /article/faq/
+Redirect 301 /archive/articles/Articles.FluxboxTrueWM.html /article/fluxbox-true-wm/
+Redirect 301 /archive/articles/Articles.FreeIsFreedom.html /article/free-is-freedom/
+Redirect 301 /archive/articles/Articles.IAmAndLinux.html /article/i-am-and-linux/
+Redirect 301 /archive/articles/Articles.InstallPuppyRusLinuxToFlashCard.html /article/install-puppy-rus-linux-to-flash-card/
+Redirect 301 /archive/articles/Articles.LinuxAndLUGs.html /linux-and-lugs/
+Redirect 301 /archive/articles/Articles.Manifest.html /article/manifest/
+Redirect 301 /archive/articles/Articles.ModificateSlaxLiveCD.html /article/modificate-slax-live-cd/
+Redirect 301 /archive/articles/Articles.NubbieVsSlackware12.html /article/nubbie-vs-slackware12/
+Redirect 301 /archive/articles/Articles.OCRinLinux.html /article/ocr-in-linux/
+Redirect 301 /archive/articles/Articles.RecordIntrnetRadio.html /article/record-internet-radio/
+Redirect 301 /archive/articles/Articles.USBPrinterHPLJ1020InLinux.html /article/usb-printer-hp-lj1020-in-linux/
+Redirect 301 /archive/articles/Articles.Vim-primeriEffectivnojRaboti.html /article/vim-primeri-effectivnoj-raboti/
+Redirect 301 /archive/articles/Creative.MessageOfFreedom.html /article/message-of-freedom/
+Redirect 301 /archive/articles/Articles.Linuksovka3.html /post/linuxovka-orsha-lug-03-otchet/
+Redirect 301 /archive/articles/Error.html /404.html
+Redirect 301 /archive/articles/index.html /article/
+Redirect 301 /archive/articles/Articles.html /article/
+Redirect 301 /archive/articles/_files/print.css /article/
+Redirect 301 /archive/articles/_files/ /article/
+Redirect 301 /archive/articles/Main.ByFlyStorage.html /article/
+Redirect 301 /archive/articles/$ /article/
+Redirect 301 /archive/articles/_files/he26758075.jpg /images/articles/he26758075.jpg
+Redirect 301 /archive/images/index.php /article/list-of-old-images/
+Redirect 301 /archive/images/$ /article/list-of-old-images/
+Redirect 301 /archive/soft/martian-full-20061203.tar.gz /post/orsha-lug-now-with-hugo/
+Redirect 301 /archive/soft/ /post/orsha-lug-now-with-hugo/
+
+
+# @TODO: redirect old index.php pages
+# RewriteEngine on
+# RewriteRule ^/?page=bylugs$ http://orsha.linux.by /article/belarusian-linux-users-group/ [R=301,L]
+# RewriteRule ^/?page=groups$ http://orsha.linux.by /article/email-list/ [R=301,L]
 
 

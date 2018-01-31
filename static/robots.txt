@@ -1,6 +1,11 @@
 User-agent: *
-Disallow:
+Disallow: /categories/
+Disallow: /page/
+Disallow: /tags/
+Host: orsha.linux.by
 
 User-Agent: Yandex
-Disallow:
+Disallow: /categories/
+Disallow: /page/
+Disallow: /tags/
 Host: orsha.linux.by

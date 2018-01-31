@@ -5,6 +5,9 @@ DefaultContentLanguage: "ru"
 title: "Orsha LUG"
 description: "Группа пользователей Linux в Орше"
 metaDataFormat: "yaml"
+# disableRSS: true
+disableKinds:
+    - RSS
 
 pygmentsStyle: "trac"
 pygmentsUseClasses: true
@@ -14,7 +17,7 @@ pygmentsCodefencesGuessSyntax: true
 Params:
     subtitle: 'Группа пользователей Linux в Орше'
     logo: "images/orsha-tux-hugo.png"
-    favicon: "images/tux_orsha.png"
+    favicon: "favicon.ico"
     commit: false
     rss: false
     readingTime: false
@@ -29,15 +32,15 @@ menu:
         URL: "/forum/"
       - Name: "Статьи"
         Weight: 2
-        URL: "/getting-started/"
+        URL: "/article/"
       - Name: "Манифест"
         Weight: 2
-        URL: "/getting-started/"
+        URL: "/article/manifest/"
 
 
-# Author:
-#     name: "OrshaLUG"
-#     website: "https://orsha.linux.by/"
-#     email: "orsha-lug@googlegroups.com"
-#     telegram: "Orsha LUG"
+Author:
+    name: "OrshaLUG"
+    website: "https://orsha.linux.by/"
+    email: "orsha-lug@googlegroups.com"
+    telegram: "joinchat/EfXjtg4f0DrD-N6u8k2hig"
 
