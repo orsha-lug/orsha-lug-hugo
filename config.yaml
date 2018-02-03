@@ -14,6 +14,8 @@ pygmentsUseClasses: true
 pygmentsCodeFences: true
 pygmentsCodefencesGuessSyntax: true
 
+googleAnalytics: UA-100726130-1
+
 Params:
     subtitle: 'Группа пользователей Linux в Орше'
     logo: "images/orsha-tux-hugo.png"
