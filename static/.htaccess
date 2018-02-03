@@ -46,4 +46,9 @@ Redirect 301 /archive/soft/ /post/orsha-lug-now-with-hugo/
 # RewriteRule ^/?page=bylugs$ http://orsha.linux.by /article/belarusian-linux-users-group/ [R=301,L]
 # RewriteRule ^/?page=groups$ http://orsha.linux.by /article/email-list/ [R=301,L]
 
+# редиректы из-за прошлых проблем с https (сайт склеился с forum.linux.by):
 
+# Redirect 301 /gallery/album.php /article/list-of-old-images/
+# Redirect 301 /gallery /article/list-of-old-images/
+# Redirect 301 /viewtopic.php /forum/
+# Redirect 301 /viewforum.php /forum/

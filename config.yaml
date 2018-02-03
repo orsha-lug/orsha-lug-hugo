@@ -1,4 +1,4 @@
-baseURL: "http://orsha.linux.by/"
+baseURL: "https://orsha.linux.by/"
 languageCode: "ru"
 theme: "beautifulhugo"
 DefaultContentLanguage: "ru"
