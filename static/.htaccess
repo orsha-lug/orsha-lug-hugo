@@ -41,6 +41,9 @@ Redirect 301 /archive/soft/martian-full-20061203.tar.gz /post/orsha-lug-now-with
 Redirect 301 /archive/soft/ /post/orsha-lug-now-with-hugo/
 
 
+Redirect 301 /article/fluxbox-true-wm/ /article/fluxbox-pretty-lightweight-wm-for-linux/
+
+
 # @TODO: redirect old index.php pages
 # RewriteEngine on
 # RewriteRule ^/?page=bylugs$ http://orsha.linux.by /article/belarusian-linux-users-group/ [R=301,L]
