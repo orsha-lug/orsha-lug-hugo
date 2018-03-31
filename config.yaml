@@ -8,6 +8,8 @@ metaDataFormat: "yaml"
 # disableRSS: true
 disableKinds:
     - RSS
+    - taxonomy
+    - taxonomyTerm
 
 pygmentsStyle: "trac"
 pygmentsUseClasses: true
