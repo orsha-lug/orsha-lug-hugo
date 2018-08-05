@@ -1,4 +1,16 @@
 <footer>
+  <script>
+    setTimeout(function(){
+        document.querySelectorAll('a.protected').forEach(function(a) {
+            var s = '%25s';
+            var tpl = a.dataset.urlTemplate;
+            var staticPart = tpl.split(s)[0];
+            var encodedPart = a.href.split(staticPart).filter(function(e){return e});
+            var decodedPart = atob(encodedPart);
+            a.href = tpl.replace(s, decodedPart);
+        })
+    }, 2000);
+  </script>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -6,8 +18,17 @@
           {{ range .Site.Data.beautifulhugo.social.social_icons }}
             {{- if isset $.Site.Author .id }}
               <li>
-                <a href="{{ printf .url (index $.Site.Author .id) }}" title="{{ .title }}" rel="nofollow">
+                <a 
+                    href="{{ printf .url (index $.Site.Author .id) }}"
+                    title="{{ .title }}"
+                    rel="nofollow"
+                    {{- if and (isset $.Site.Author.protected_links .id) (index $.Site.Author.protected_links .id) }}
+                      class="protected"
+                      data-url-template="{{ .url }}"
+                    {{- end}}
+                >
                   <span class="fa-stack fa-lg">
+                      {{ .title }}
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
                   </span>

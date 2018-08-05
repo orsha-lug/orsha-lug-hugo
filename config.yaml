@@ -46,5 +46,9 @@ Author:
     name: "OrshaLUG"
     website: "https://orsha.linux.by/"
     email: "orsha-lug@googlegroups.com"
-    telegram: "joinchat/EfXjtg4f0DrD-N6u8k2hig"
+    # encoded telegram link:
+    telegram: "am9pbmNoYXQvRWZYanRrZXpURV9qakptaWFJVFM4UQ=="
+    protected_links:
+        email: false
+        telegram: true
 
